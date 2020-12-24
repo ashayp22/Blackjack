@@ -1,0 +1,2 @@
+C:\Users\ashay\Documents\0Code\C++ Code\Blackjack\Debug\Blackjack.exe
+C:\Users\ashay\Documents\0Code\C++ Code\Blackjack\Debug\Blackjack.pdb
