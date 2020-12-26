@@ -236,25 +236,29 @@ public:
         return m_score > maximumScore;
     }
 
+    //returns the player's score
     int getScore() const {
         return m_score;
     }
 
+    //clears the player's score
     void clearScore() {
         m_score = 0;
     }
 
+    //increment the number of wins the player has
     void incrementRecord() {
         m_record += 1;
     }
 
+    //returns the number of wins the player has
     int getRecord() const {
         return m_record;
     }
 };
 
 
-//checks if a player wants to hit
+//asks if a player wants to hit or stand
 bool playerHit() {
     std::cout << "Do you want to hit (h) or stand (s)?" << "\n";
     char ch{};
